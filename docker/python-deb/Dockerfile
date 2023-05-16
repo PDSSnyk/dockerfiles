@@ -3,7 +3,7 @@
 # We only change to use the latest debian version. 
 
 # Last modified: Sun, 27 Mar 2022 11:26:13 +0000
-FROM debian:bullseye-slim
+FROM debian:11.6-slim
 
 # ensure local python is preferred over distribution python
 ENV PATH /usr/local/bin:$PATH
